@@ -11,10 +11,5 @@ public class IosSwipeBack extends Plugin {
 
     @PluginMethod()
     public void echo(PluginCall call) {
-        String value = call.getString("value");
-
-        JSObject ret = new JSObject();
-        ret.put("value", value);
-        call.success(ret);
     }
 }
