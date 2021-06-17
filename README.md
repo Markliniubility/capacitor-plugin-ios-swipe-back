@@ -5,7 +5,7 @@ Enable the back/forward swipe gestures support for iOS
 ## Install
 
 ```
-npm install capacitor-plugin-ios-swipe-back
+npm install git+https://github.com/Markliniubility/capacitor-plugin-ios-swipe-back.git
 npx cap sync
 ```
 
